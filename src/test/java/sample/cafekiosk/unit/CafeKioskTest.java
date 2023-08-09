@@ -128,6 +128,8 @@ class CafeKioskTest {
     }
 
     // 예외 케이스 테스트
+    // 예외 케이스 테스트
+
     @Test
     void createOrderOutsideOpenTime() {
         CafeKiosk cafeKiosk = new CafeKiosk();
